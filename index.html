@@ -1,168 +1,156 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Chiyun Noh</title>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="author" content="Chiyun Noh">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <title>Chiyun Noh</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Chiyun Noh</name>
-              </p>
-              <p> I am a first-year Ph.D. student in Mechanical Engineering at the <a href="https://rpm.snu.ac.kr/index.php/Main/About"> RPM Robotics lab</a>, <a href="https://me.snu.ac.kr/en/"> Seoul National University</a>, advised by Prof. <a href="https://ayoungk.github.io/"> Ayoung Kim</a>.
-              </p>
-              <p></p>
-              <p>
-              My research interests include Radar-Inertial Odometry and Sensor Fusion. I am particularly interested in leveraging the estimated local gravity to refine the rotation matrix.
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
 
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:gch06208@snu.ac.kr">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?hl=en&user=8sHvESQAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/ChiyunNoh">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/chiyun-noh-82aa612a2/">LinkedIn</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/profile_cynoh.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_cynoh.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
-              <!-- <p>
-              Representative papers are <span class="highlight">highlighted</span>.
-              </p> -->
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/cynoh-2025-icra.png" alt="GaRLIO" width="160">
-            </td>
+  <main class="page-shell">
+    <nav class="glass-nav" aria-label="Primary">
+      <a class="brand-mark" href="#">Chiyun Noh</a>
+      <div class="nav-links">
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="mailto:gch06208@snu.ac.kr">Email</a>
+      </div>
+    </nav>
 
-            <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://github.com/ChiyunNoh/GaRLIO">
-                <span class="papertitle">GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry</span>
-            </a>
-            <br>
-            <strong>Chiyun Noh</strong>,
-            <a href="https://scholar.google.com/citations?user=lh2KUKMAAAAJ&hl=ko&oi=sra">Wooseong Yang</a>,
-            <a href="https://scholar.google.com/citations?user=aKPTi7gAAAAJ&hl=ko&oi=sra">Minwoo Jung</a>,
-            <a href="https://scholar.google.com/citations?user=I2pNZDkAAAAJ&hl=ko&oi=sra">Sangwoo Jung</a>,
-            <a href="https://ayoungk.github.io/">Ayoung Kim</a>
-            <br>
-            <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
-            <br>
-            [<a href="https://arxiv.org/abs/2502.07703">arXiv</a>]
-            [<a href="https://github.com/ChiyunNoh/GaRLIO">code</a>]
-            <p></p>
-            <p>
-              𝐆𝐚𝐑𝐋𝐈𝐎, the proposed gravity-enhanced Radar-LiDAR-Inertial Odometry, can 𝐫𝐨𝐛𝐮𝐬𝐭𝐥𝐲 𝐩𝐫𝐞𝐝𝐢𝐜𝐭 𝐠𝐫𝐚𝐯𝐢𝐭𝐲 𝐭𝐨 𝐫𝐞𝐝𝐮𝐜𝐞 𝐯𝐞𝐫𝐭𝐢𝐜𝐚𝐥 𝐝𝐫𝐢𝐟𝐭 while simultaneously enhancing state estimation performance using pointwise velocity measurements. 
-            </p>
-            </td>
-          </tr>
+    <section class="hero glass-panel">
+      <div class="hero-copy">
+        <p class="eyebrow">Radar-Inertial Odometry &middot; Sensor Fusion</p>
+        <h1>Chiyun Noh</h1>
+        <p class="lead">
+          I am a first-year Ph.D. student in Mechanical Engineering at the
+          <a href="https://rpm.snu.ac.kr/index.php/Main/About">RPM Robotics lab</a>,
+          <a href="https://me.snu.ac.kr/en/">Seoul National University</a>, advised by
+          Prof. <a href="https://ayoungk.github.io/">Ayoung Kim</a>.
+        </p>
+        <p>
+          My research interests include Radar-Inertial Odometry and Sensor Fusion. I am
+          particularly interested in leveraging the estimated local gravity to refine the
+          rotation matrix.
+        </p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:gch06208@snu.ac.kr">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=8sHvESQAAAAJ">Google Scholar</a>
+          <a href="https://github.com/ChiyunNoh">GitHub</a>
+          <a href="https://www.linkedin.com/in/chiyun-noh-82aa612a2/">LinkedIn</a>
+        </div>
+      </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/hjkim-2025-icra.png" alt="HeRCULES" width="160">
-            </td>
+      <a class="portrait-wrap" href="images/profile_cynoh.png" aria-label="Open profile photo">
+        <img src="images/profile_cynoh.png" alt="Chiyun Noh profile photo">
+      </a>
+    </section>
 
-            <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://sites.google.com/view/herculesdataset/home">
-                <span class="papertitle">HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM</span>
-            </a>
-            <br>
-            <a href="https://scholar.google.com/citations?user=9o64BOYAAAAJ&hl=ko&oi=sra">Hanjun Kim</a>,
-            <a href="https://scholar.google.com/citations?user=aKPTi7gAAAAJ&hl=ko&oi=sra">Minwoo Jung</a>,
-            <strong>Chiyun Noh</strong>,
-            <a href="https://scholar.google.com/citations?user=I2pNZDkAAAAJ&hl=ko&oi=sra">Sangwoo Jung</a>,
-            <a href="https://github.com/Hyunho111">Hyunho Song</a>,
-            <a href="https://scholar.google.com/citations?user=lh2KUKMAAAAJ&hl=ko&oi=sra">Wooseong Yang</a>,
-            <a href="https://scholar.google.com/citations?user=liSzSegAAAAJ&hl=ko&oi=sra">Hyesu Jang</a>,            
-            <a href="https://ayoungk.github.io/">Ayoung Kim</a>
-            <br>
-            <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
-            <br>
-            [<a href="https://arxiv.org/abs/2502.01946">arXiv</a>]
-            [<a href="https://sites.google.com/view/herculesdataset/home">dataset site</a>]
-            <p></p>
-            <p>
-              HeRCULES introduces the first public dataset with 4D radar, scanning radar, and FMCW LiDAR, enabling radar-LiDAR fusion SLAM & cross-sensor place recognition across diverse urban conditions. 
-            </p>
-            </td>
-          </tr>
+    <section id="publications" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Publications</h2>
+      </div>
 
-
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Other publications and projects</heading>
-            <!-- <p>
-            Representative papers are <span class="highlight">highlighted</span>.
-            </p> -->
-          </td>
-        </tr>
-      </tbody></table>
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="images/cynoh-2024-icra-ws.png" alt="Adaptive-LRI" width="160">
-          </td>
-
-          <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://arxiv.org/pdf/2403.17441">
-              <span class="papertitle">Adaptive LiDAR-Radar Fusion for Outdoor Odometry Across Dense Smoke Conditions</span>
+      <article class="publication-card glass-panel">
+        <a class="paper-media" href="images/cynoh-2025-icra.png" aria-label="Open GaRLIO preview image">
+          <img src="images/cynoh-2025-icra.png" alt="GaRLIO preview">
+        </a>
+        <div class="paper-body">
+          <a class="paper-title" href="https://github.com/ChiyunNoh/GaRLIO">
+            GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry
           </a>
-          <br>
-          <strong>Chiyun Noh</strong>, 
-          <a href="https://ayoungk.github.io/">Ayoung Kim</a>
-          <br>
-          <em>Workshop on Radar in Robotics: Resilience from Signal to Navigation, ICRA</em>, 2024 <font color="red"><strong>(Best poster award)</strong></font>
-          <br>
-          [<a href="https://arxiv.org/pdf/2403.17441">arXiv</a>]
-          [<a href="https://sites.google.com/view/radar-robotics">Workshop page</a>]
-          <p></p>
-          <p>
-          The algorithm proposed in this paper enables robust odometry estimation in dense foggy outdoor environments from LiDAR and radar fusion.
+          <p class="authors">
+            <strong>Chiyun Noh</strong>,
+            <a href="https://scholar.google.com/citations?user=lh2KUKMAAAAJ&amp;hl=ko&amp;oi=sra">Wooseong Yang</a>,
+            <a href="https://scholar.google.com/citations?user=aKPTi7gAAAAJ&amp;hl=ko&amp;oi=sra">Minwoo Jung</a>,
+            <a href="https://scholar.google.com/citations?user=I2pNZDkAAAAJ&amp;hl=ko&amp;oi=sra">Sangwoo Jung</a>,
+            <a href="https://ayoungk.github.io/">Ayoung Kim</a>
           </p>
-          </td>
-        </tr>
+          <p class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</p>
+          <div class="paper-actions">
+            <a href="https://arxiv.org/abs/2502.07703">arXiv</a>
+            <a href="https://github.com/ChiyunNoh/GaRLIO">Code</a>
+          </div>
+          <p>
+            <strong>GaRLIO</strong>, the proposed gravity-enhanced Radar-LiDAR-Inertial
+            Odometry, can robustly predict gravity to reduce vertical drift while
+            simultaneously enhancing state estimation performance using pointwise velocity
+            measurements.
+          </p>
+        </div>
+      </article>
 
-      </tbody></table>
+      <article class="publication-card glass-panel">
+        <a class="paper-media" href="images/hjkim-2025-icra.png" aria-label="Open HeRCULES preview image">
+          <img src="images/hjkim-2025-icra.png" alt="HeRCULES preview">
+        </a>
+        <div class="paper-body">
+          <a class="paper-title" href="https://sites.google.com/view/herculesdataset/home">
+            HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM
+          </a>
+          <p class="authors">
+            <a href="https://scholar.google.com/citations?user=9o64BOYAAAAJ&amp;hl=ko&amp;oi=sra">Hanjun Kim</a>,
+            <a href="https://scholar.google.com/citations?user=aKPTi7gAAAAJ&amp;hl=ko&amp;oi=sra">Minwoo Jung</a>,
+            <strong>Chiyun Noh</strong>,
+            <a href="https://scholar.google.com/citations?user=I2pNZDkAAAAJ&amp;hl=ko&amp;oi=sra">Sangwoo Jung</a>,
+            <a href="https://github.com/Hyunho111">Hyunho Song</a>,
+            <a href="https://scholar.google.com/citations?user=lh2KUKMAAAAJ&amp;hl=ko&amp;oi=sra">Wooseong Yang</a>,
+            <a href="https://scholar.google.com/citations?user=liSzSegAAAAJ&amp;hl=ko&amp;oi=sra">Hyesu Jang</a>,
+            <a href="https://ayoungk.github.io/">Ayoung Kim</a>
+          </p>
+          <p class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</p>
+          <div class="paper-actions">
+            <a href="https://arxiv.org/abs/2502.01946">arXiv</a>
+            <a href="https://sites.google.com/view/herculesdataset/home">Dataset site</a>
+          </div>
+          <p>
+            HeRCULES introduces the first public dataset with 4D radar, scanning radar, and
+            FMCW LiDAR, enabling radar-LiDAR fusion SLAM and cross-sensor place recognition
+            across diverse urban conditions.
+          </p>
+        </div>
+      </article>
+    </section>
 
+    <section id="projects" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">More work</p>
+        <h2>Other publications and projects</h2>
+      </div>
 
+      <article class="publication-card glass-panel">
+        <a class="paper-media wide" href="images/cynoh-2024-icra-ws.png" aria-label="Open Adaptive-LRI preview image">
+          <img src="images/cynoh-2024-icra-ws.png" alt="Adaptive LiDAR-Radar Fusion preview">
+        </a>
+        <div class="paper-body">
+          <a class="paper-title" href="https://arxiv.org/pdf/2403.17441">
+            Adaptive LiDAR-Radar Fusion for Outdoor Odometry Across Dense Smoke Conditions
+          </a>
+          <p class="authors"><strong>Chiyun Noh</strong>, <a href="https://ayoungk.github.io/">Ayoung Kim</a></p>
+          <p class="venue">
+            Workshop on Radar in Robotics: Resilience from Signal to Navigation, ICRA, 2024
+            <span class="award">Best poster award</span>
+          </p>
+          <div class="paper-actions">
+            <a href="https://arxiv.org/pdf/2403.17441">arXiv</a>
+            <a href="https://sites.google.com/view/radar-robotics">Workshop page</a>
+          </div>
+          <p>
+            The algorithm proposed in this paper enables robust odometry estimation in dense
+            foggy outdoor environments from LiDAR and radar fusion.
+          </p>
+        </div>
+      </article>
+    </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                <a href="https://github.com/jonbarron/jonbarron_website">Template by Jon Barron.</a>
-             </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+    <footer class="site-footer">
+      <a href="https://github.com/jonbarron/jonbarron_website">Template by Jon Barron.</a>
+    </footer>
+  </main>
 </body>
-
 </html>
